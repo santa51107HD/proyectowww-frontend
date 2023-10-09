@@ -1,0 +1,29 @@
+.buscador-inicio {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    border: solid thin red;
+}
+
+.contenedor-datos-inicio {
+    border: solid thin red;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.input-inicio {
+    width: 250px;
+    text-align: center;
+}
+
+.boton-buscar-inicio{
+    margin-top: 7px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}

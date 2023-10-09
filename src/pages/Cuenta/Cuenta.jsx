@@ -19,10 +19,11 @@ export default function Cuenta() {
               <div className="campo">
                 <h3 className="">Correo electrónico</h3>
                 <input
+                  readOnly
                   type="email"
                   id="email"
                   placeholder="example@gmail.com"
-                />
+                  />
               </div>
               <div className="campo">
                 <h3>Nombre completo</h3>
