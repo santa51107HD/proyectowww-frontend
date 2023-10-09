@@ -1,0 +1,97 @@
+
+.formulario-cuenta {
+    color: white;
+}
+
+.boton-cambiar{
+    margin-top: 7px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+.campo-boton-cuenta{
+    color: #fff;
+    text-align: center;
+    border: solid thin red;
+}
+
+.boton-guardar-cuenta{
+    margin-top: 7px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.boton-inactivar-cuenta{
+    margin-top: 7px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.campo{
+    margin-bottom: 20px;
+    border: solid thin red;
+    
+}
+
+.contenedor-avatar-cuenta {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+
+    width:40%;
+    border: solid thin red;
+  }
+
+.contenedor-cuenta {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    border: solid thin red;
+}
+
+
+
+
+.contenedor-dividido-cuenta{
+    /*border: solid thin green;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid thin red;
+}
+
+
+.contenedor-datos-cuenta {
+    width: 45%;
+    border: solid thin red;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9F8ad0;
+}
+
+
+
+
+
