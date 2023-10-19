@@ -1,4 +1,5 @@
 import { Base } from "../../components/Base/Base.jsx";
+import { Comp_Contacto } from "../../components/Comp_Contacto/Comp_Contacto.jsx";
 import "./Contactos.css";
 
 export default function Contactos() {
@@ -12,7 +13,8 @@ export default function Contactos() {
               <button className="boton-buscar-contactos">Buscar</button>
               </div>
             </div>
-            
+        <Comp_Contacto avatar="male1" apodo="Pepe" nombre="Pepito" correo="pepe@gmail.com"/>
+        <Comp_Contacto avatar="female2" apodo="Peppa" nombre="Pepita" correo="pepa@gmail.com"/>
         </section>
         </div>
         )
