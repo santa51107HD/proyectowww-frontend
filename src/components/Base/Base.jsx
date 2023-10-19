@@ -30,7 +30,7 @@ export function Base({ titulo }) {
     <div>
       <div>
         <img
-          src="../../../images/bx-menu-alt-right.svg"
+          src="../../../img/bx-menu-alt-right.svg"
           className={`hamburger`}
           onClick={toggleMenu}
           //Alt, si no carga la imagen se muestra esto
