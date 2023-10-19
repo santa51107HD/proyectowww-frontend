@@ -1,0 +1,53 @@
+.datos-contacto {
+    color: white;
+    background-color: #0097b2;
+    padding: 20px 10px;
+    border-radius: 14px;
+}
+
+.contenedor-contacto {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+.contenedor-dividido-contacto{
+    /*border: solid thin green;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: solid thin red;*/
+    padding: 20px 10px;
+    
+}
+
+.boton-eliminar-contacto{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.boton-anadir-contacto{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.campo-item-cuenta{
+    color: #fff;
+    text-align: center;
+    /*border: solid thin red;*/
+    padding: 10px 10px;
+}
+
+.avatar-contacto{
+    width: 150px;
+    height: 150px;
+}
