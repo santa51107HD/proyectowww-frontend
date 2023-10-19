@@ -1,4 +1,5 @@
 import { Base } from "../../components/Base/Base.jsx";
+import { Comp_Contacto } from "../../components/Comp_Contacto/Comp_Contacto.jsx";
 import "./Inicio.css";
 
 export default function Inicio() {
@@ -12,7 +13,7 @@ export default function Inicio() {
               <button className="boton-buscar-inicio">Buscar</button>
               </div>
             </div>
-            
+        <Comp_Contacto avatar="female1" apodo="Mafe" nombre="Maria Fernanda" correo="mafe@gmail.com"/>
         </section>
         </div>
         )
