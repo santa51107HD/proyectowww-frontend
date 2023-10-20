@@ -1,10 +1,14 @@
+import React from "react";
+import {Link} from "react-router-dom";
 import "./Registro.css";
 
 export default function Registro(){
     return(
         <div>
             <div className="campo-boton-registro">
-                <button className="boton-registro">Iniciar sesión</button>
+                <Link to="/login">
+                    <button className="boton-registro">Iniciar sesión</button>
+                </Link>
             </div>
             <section className="contenedor-registro">
                 <div className="cabecera-registro">
