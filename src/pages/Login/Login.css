@@ -1,10 +1,10 @@
-.campo-boton-registro{
+.campo-boton-login{
     color: #fff;
     text-align: center; 
     /*border: solid thin red;*/
 }
 
-.boton-registro{
+.boton-login{
     margin-top: 7px;
     background-color: black;
     color: white;
@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.contenedor-registro {
+.contenedor-login {
     width: 90%;
     max-width: 500px;
     overflow: hidden;
@@ -21,7 +21,7 @@
     padding: 60px 0;
 }
 
-.formulario-registro {
+.formulario-login {
     color: white;
     overflow: hidden;
     margin:auto;
@@ -31,7 +31,7 @@
     margin-bottom: 20px;
 }
 
-.boton-continuar{
+.boton-continuar-login{
     margin-top: 7px;
     background-color: blue;
     color: white;
@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.cabecera-registro{
+.cabecera-login{
     padding: 0;
     height: 100%;
     display: flex;
