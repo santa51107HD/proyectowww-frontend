@@ -1,0 +1,52 @@
+.campo-boton-registro{
+    color: #fff;
+    text-align: center; 
+    /*border: solid thin red;*/
+}
+
+.boton-registro{
+    margin-top: 7px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.contenedor-registro {
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.formulario-registro {
+    color: white;
+    overflow: hidden;
+    margin:auto;
+}
+
+.campo{
+    margin-bottom: 20px;
+}
+
+.boton-continuar{
+    margin-top: 7px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
