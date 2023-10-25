@@ -30,7 +30,7 @@ export function Base({ titulo }) {
     <div>
       <div>
         <img
-          src="../../../images/bx-menu-alt-right.svg"
+          src="../../../bx-menu-alt-right.svg"
           className={`hamburger`}
           onClick={toggleMenu}
           //Alt, si no carga la imagen se muestra esto
@@ -40,7 +40,7 @@ export function Base({ titulo }) {
           className={`menu-navegacion ${isMenuOpen ? "spread" : ""}`}
           ref={menuRef}
         >
-          <a href="/">Inicio</a>
+          <a href="/inicio">Inicio</a>
           <a href="/cuenta">Cuenta</a>
           <a href="/contactos">Contactos</a>
           <a href="/eventos">Eventos</a>

@@ -69,7 +69,7 @@
 }
 
 .contenedor-datos-cuenta {
-    width: 50%;
+    width: 60%;
     /*border: solid thin red;*/
     display: flex;
     flex-direction: column; /* Coloca los elementos en columna */

@@ -11,7 +11,7 @@ export default function Cuenta() {
       </div>
         <div className="contenedor-dividido-cuenta">
           <div className="contenedor-avatar-cuenta">
-            <img className="avatar-perfil" src="../../../images/male4.svg" alt="icono"></img>
+            <img className="avatar-perfil" src="../../../male4.svg" alt="icono"></img>
             <button className="boton-cambiar">Cambiar Avatar</button>
           </div>
           <div className="contenedor-datos-cuenta">

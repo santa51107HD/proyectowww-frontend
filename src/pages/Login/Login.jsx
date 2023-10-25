@@ -15,14 +15,14 @@ export default function Login(){
                     <h1>Inicia sesión</h1>
                 </div>
                 <form className="formulario-login">
-                    <div className="campo">
+                    <div className="campo-login">
                         <input
                             type ="email"
                             id= "email"
                             placeholder="Correo electrónico"
                         />
                     </div>
-                    <div className="campo">
+                    <div className="campo-login">
                         <input
                             type ="password"
                             id= "contraseña"

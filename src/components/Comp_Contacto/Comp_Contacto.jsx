@@ -21,7 +21,7 @@ export function Comp_Contacto({ avatar, apodo, nombre, correo }) {
       <section className="contenedor-contacto">
         <div className="contenedor-dividido-contacto">
           <div className="campo-item-cuenta">
-            <img className="avatar-contacto" src={`../../../images/${avatar}.svg`} alt="icono"></img>
+            <img className="avatar-contacto" src={`../../../${avatar}.svg`} alt="icono"></img>
           </div>
           <div className="datos-contacto">
             <h3>Apodo: {apodo}</h3>

@@ -27,8 +27,11 @@
     margin:auto;
 }
 
-.campo{
+.campo-registro{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton-continuar{
