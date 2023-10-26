@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio/Inicio.jsx'
 import Contactos from './pages/Contactos/Contactos.jsx'
 import Registro from './pages/Registro/Registro.jsx'
 import Login from "./pages/Login/Login.jsx";
+import Eventos from "./pages/Eventos/Eventos.jsx";
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/contactos" element={<Contactos />} />
           <Route path="/registro" element={<Registro />} />
           <Route path="/" element={<Login />} />
+          <Route path="/eventos" element={<Eventos />} />
         </Routes>
       </div>
     </BrowserRouter>

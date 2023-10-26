@@ -1,0 +1,41 @@
+.contenedor-eventos {
+    /*border: solid thin red;*/
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    
+}
+
+.boton-crear-eventos{
+    margin-top: 7px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.texto-crear-eventos::placeholder{
+    color:white;
+    background-color: #5b6169;
+}
+
+.a:focus{
+    color:white;
+    background-color: #5b6169;
+}
+
+.texto-crear-eventos{
+    color:white;
+    background-color: #5b6169;
+}
+
+#customTextarea {
+    color:white;
+    background-color: #5b6169;
+  }
+
+
+.campo-crear-eventos{
+    padding-bottom: 5px;
+}
