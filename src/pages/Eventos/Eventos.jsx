@@ -45,36 +45,43 @@ export default function Eventos() {
                   />
                 </div>
                 <div>
-                    <p>Selecciona un icono</p>
+                  <p>Selecciona un icono</p>
                 </div>
                 <div>
                   <img
-                    src="../../../male1.svg"
+                    src="../../../evento1.svg"
                     className="agregar-imagen"
                     alt="Imagen en lightbox"
                   />
                   <img
-                    src="../../../female1.svg"
+                    src="../../../evento2.svg"
                     className="agregar-imagen"
                     alt="Imagen en lightbox"
                   />
-
                 </div>
                 <div className="campo-crear-eventos">
-                <img
-                    src="../../../male2.svg"
+                  <img
+                    src="../../../evento3.svg"
                     className="agregar-imagen"
                     alt="Imagen en lightbox"
                   />
                   <img
-                    src="../../../female2.svg"
+                    src="../../../evento4.svg"
                     className="agregar-imagen"
                     alt="Imagen en lightbox"
                   />
                 </div>
                 <div>
-                  <button className="boton-crear-eventos" onClick={togglePopup}>Crear Evento</button>
+                  <button className="boton-crear-eventos" onClick={togglePopup}>
+                    Crear Evento
+                  </button>
                 </div>
+                <img
+                  src="../../../bx-x.svg"
+                  className="close"
+                  onClick={togglePopup}
+                  alt="Cerrar"
+                />
               </div>
             </section>
           )}
