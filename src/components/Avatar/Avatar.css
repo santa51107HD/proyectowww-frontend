@@ -36,6 +36,7 @@
 
 .agregar-imagen{
     object-fit: cover;
+    max-width: 100px;
     width: 20%;
     /**object-fit: contain; /* Cambiar a contain para que la imagen se ajuste en el contenedor */
     /**max-width: 100%; /* Añadir para asegurarse de que la imagen no se desborde */

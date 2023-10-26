@@ -1,10 +1,20 @@
 .campo-boton-registro{
     color: #fff;
-    text-align: center; 
+    text-align: center;
+    font-weight: bold;
     /*border: solid thin red;*/
 }
 
 .boton-registro{
+    margin-top: 7px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.boton-avatar-registro{
     margin-top: 7px;
     background-color: black;
     color: white;
